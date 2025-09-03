@@ -1,0 +1,19 @@
+# Ignore build output
+target/
+*.jar
+
+# IDE / editor stuff
+.idea/
+*.iml
+*.class
+
+# Logs
+*.log
+
+# Git files
+.git
+.gitignore
+
+# OS junk
+.DS_Store
+Thumbs.db

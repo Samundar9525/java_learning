@@ -20,7 +20,7 @@ public class routes {
     }
 
     @GetMapping("/engineer")
-    @PreAuthorize("hasRole('Engineer')")
+    @PreAuthorize("hasRole('Employee')")
     public String engineerDashboard() {
         return "Welcome to the Engineer Dashboard!";
     }
